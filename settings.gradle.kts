@@ -1,0 +1,1 @@
+rootProject.name = "com.app.ktor-social-app"
