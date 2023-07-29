@@ -1,6 +1,19 @@
 ktor:
-    deployment:
-        port: 8080
-    application:
-        modules:
-            - com.app.ApplicationKt.module
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - app.ApplicationKt.module
+
+jwt:
+  secret: "TOKEN_KEY_!@#4"
+  issuer: "http://0.0.0.0:8080/"
+  audience: "http://0.0.0.0:8080/hello"
+  realm: "Access to 'hello'"
+
+ktorm:
+  main:
+    url: "jdbc:mysql://localhost:3306/social?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul"
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: social

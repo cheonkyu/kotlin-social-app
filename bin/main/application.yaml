@@ -1,0 +1,20 @@
+mode: production
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - app.ApplicationKt.module
+
+jwt:
+  secret: "StudyMoa_JSON_WEB_TOKEN_KEY_!@#4"
+  issuer: "http://0.0.0.0:8080/"
+  audience: "http://0.0.0.0:8080/hello"
+  realm: "Access to 'hello'"
+
+ktorm:
+  main:
+    url: jdbc:h2:mem:testdb;MODE=MYSQL
+    driverClassName: org.h2.Driver
+    username: sa
+    password: 1

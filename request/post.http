@@ -1,0 +1,11 @@
+
+### 
+GET http://127.0.0.1:8080/api/post
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXEiOjEsInBsYWNlU2VxIjoiMSIsImlkIjoic3VwZXIiLCJ1c2VybmFtZSI6IuyKiO2NvOq0gOumrOyekCIsInBlcm1pc3Npb24iOjksImlhdCI6MTY4NzE2MDE1MH0._-xQ1VOYgwKFmGaI33wywEIfgYPDBb7Dc6QfdrIV7A8
+
+
+### 
+GET http://127.0.0.1:8080/api/user?name=김천규
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXEiOjEsInBsYWNlU2VxIjoiMSIsImlkIjoic3VwZXIiLCJ1c2VybmFtZSI6IuyKiO2NvOq0gOumrOyekCIsInBlcm1pc3Npb24iOjksImlhdCI6MTY4NzE2MDE1MH0._-xQ1VOYgwKFmGaI33wywEIfgYPDBb7Dc6QfdrIV7A8
